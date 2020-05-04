@@ -7,6 +7,7 @@
     "start": "node dist/server.js",
     "run-server": "ts-node src/index.ts",
     "serve": "node dist/server.js",
+    "build-ts": "tsc --build tsconfig.json",
     "build-tsc": "tsc --build tsconfig.json",
     "postinstall": "npm run build-ts",
     "watch": "tsc --build tsconfig.json --watch ",
