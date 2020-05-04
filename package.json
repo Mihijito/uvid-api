@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "start":"node src/server.js",
+    "start":"node dist/server.js",
     "postinstall":"tsc",
     "run-server": "ts-node src/index.ts",
     "serve": "node dist/server.js",
