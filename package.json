@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "start": "tsc && node dist/server.js",
+    "start": "node dist/server.js",
     "run-server": "ts-node src/index.ts",
     "serve": "node dist/server.js",
     "build-tsc": "tsc --build tsconfig.json",
