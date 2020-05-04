@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc --build tsconfig.json",
+    "watch": "tsc --build tsconfig.json --watch ",
+    "dev": "ts-node-dev src/index.ts",
+    "lint": "eslint --fix ./src/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/socket.io": "^2.1.4",
+    "dotenv": "^8.2.0",
+    "socket.io": "^2.3.0"
+  }
+}
