@@ -4,12 +4,12 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "start": "npm i && npm run build-ts && node dist/server.js",
+    "start":"node src/server.js",
+    "postinstall":"tsc",
     "run-server": "ts-node src/index.ts",
     "serve": "node dist/server.js",
     "build-ts": "tsc --build tsconfig.json",
     "build-tsc": "tsc --build tsconfig.json",
-    "postinstall": "npm run build-ts",
     "watch": "tsc --build tsconfig.json --watch ",
     "dev": "ts-node-dev src/index.ts",
     "lint": "eslint --fix ./src/*.ts"
